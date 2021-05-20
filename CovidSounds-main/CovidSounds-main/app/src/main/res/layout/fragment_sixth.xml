@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".SixthFragment">
+
+    <TextView
+        android:id="@+id/in_hospital"
+        android:layout_width="224dp"
+        android:layout_height="61dp"
+        android:fontFamily="monospace"
+        android:text="@string/in_hospital"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <TextView
+        android:id="@+id/testing_ques"
+        android:layout_width="224dp"
+        android:layout_height="61dp"
+        android:fontFamily="monospace"
+        android:text="@string/other_diseases"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:id="@+id/Covid_header"
+        android:layout_width="380dp"
+        android:layout_height="42dp"
+        android:fontFamily="monospace"
+        android:text="@string/MedicalCondition"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <CheckBox
+        android:id="@+id/diabetes"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/diabetes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <CheckBox
+        android:id="@+id/other_none"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/NONE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <CheckBox
+        android:id="@+id/other_long_term_condition"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/other_conditions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <CheckBox
+        android:id="@+id/previous_organ_transplant"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/previous_organ_transplant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <CheckBox
+        android:id="@+id/hiv"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/hiv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+    <CheckBox
+        android:id="@+id/cancer"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/cancer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <Button
+        android:id="@+id/button_sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <Spinner
+        android:id="@+id/inHospital"
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:entries="@array/inHospital"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

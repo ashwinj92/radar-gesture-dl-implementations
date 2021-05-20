@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.covidsounds.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.covidsounds.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.covidsounds.ThirdFragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/fragment_third">
+
+        <action
+            android:id="@+id/action_ThirdFragment_to_FourthFragment"
+            app:destination="@id/FourthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FourthFragment"
+        android:name="com.example.covidsounds.FourthFragment"
+        android:label="@string/fourth_fragment_label"
+        tools:layout="@layout/fragment_fourth">
+
+        <action
+            android:id="@+id/action_FourthFragment_to_FifthFragment"
+            app:destination="@id/FifthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FifthFragment"
+        android:name="com.example.covidsounds.FifthFragment"
+        android:label="@string/fifth_fragment_label"
+        tools:layout="@layout/fragment_fifth">
+
+        <action
+            android:id="@+id/action_FifthFragment_to_SixthFragment"
+            app:destination="@id/SixthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SixthFragment"
+        android:name="com.example.covidsounds.SixthFragment"
+        android:label="@string/sixth_fragment_label"
+        tools:layout="@layout/fragment_sixth">
+
+        <action
+            android:id="@+id/action_SixthFragment_to_SeventhFragment"
+            app:destination="@id/SeventhFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SeventhFragment"
+        android:name="com.example.covidsounds.SeventhFragment"
+        android:label="@string/seventh_fragment_label"
+        tools:layout="@layout/fragment_seventh">
+
+        <action
+            android:id="@+id/action_SeventhFragment_to_EighthFragment"
+            app:destination="@id/EightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EightFragment"
+        android:name="com.example.covidsounds.EigthFragment"
+        android:label="@string/eighth_fragment_label"
+        tools:layout="@layout/fragment_eighth">
+            <action
+                android:id="@+id/action_EighthFragment_to_NinthFragment"
+                app:destination="@id/NinthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NinthFragment"
+        android:name="com.example.covidsounds.NinthFragment"
+        android:label="@string/ninth_fragment_label"
+        tools:layout="@layout/fragment_ninth">
+        <action
+            android:id="@+id/action_NinthFragment_to_TenthFragment"
+            app:destination="@id/TenthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TenthFragment"
+        android:name="com.example.covidsounds.TenthFragment"
+        android:label="@string/tenth_fragment_label"
+        tools:layout="@layout/fragment_tenth">
+        <action
+            android:id="@+id/action_TenthFragment_to_EleventhFragment"
+            app:destination="@id/EleventhFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EleventhFragment"
+        android:name="com.example.covidsounds.EleventhFragment"
+        android:label="@string/eleventh_fragment_label"
+        tools:layout="@layout/fragment_eleventh">
+        <action
+            android:id="@+id/action_EleventhFragment_to_TwelfthFragment"
+            app:destination="@id/TwelfthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TwelfthFragment"
+        android:name="com.example.covidsounds.TwelfthFragment"
+        android:label="@string/twelfth_fragment_label"
+        tools:layout="@layout/fragment_twelfth">
+    </fragment>
+</navigation>

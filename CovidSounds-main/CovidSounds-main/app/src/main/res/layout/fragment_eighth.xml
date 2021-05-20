@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EigthFragment">
+
+    <Button
+        android:id="@+id/button_eighth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <TextView
+        android:id="@+id/breath_ques"
+        android:layout_width="387dp"
+        android:layout_height="118dp"
+        android:fontFamily="monospace"
+        android:text="@string/symptoms_ques"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <CheckBox
+        android:id="@+id/none_covid"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/NONE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <CheckBox
+        android:id="@+id/fever"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/fever"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <CheckBox
+        android:id="@+id/difficulty_breathing"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/difficulty_breathing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <CheckBox
+        android:id="@+id/chills"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/chills"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <CheckBox
+        android:id="@+id/muscle_aches"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/muscle_aches"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <CheckBox
+        android:id="@+id/tightness_in_chest"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/tightness_in_chest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <CheckBox
+        android:id="@+id/headache"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/headache"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <CheckBox
+        android:id="@+id/dry_cough"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/dry_cough"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <CheckBox
+        android:id="@+id/wet_cough"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/wet_cough"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <CheckBox
+        android:id="@+id/prefer_not_2_say_covid"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/prefer_not_to_say"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+</androidx.constraintlayout.widget.ConstraintLayout>

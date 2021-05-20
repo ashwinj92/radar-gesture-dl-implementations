@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".FifthFragment">
+
+        <TextView
+            android:id="@+id/cardiovascular"
+            android:layout_width="224dp"
+            android:layout_height="61dp"
+            android:fontFamily="monospace"
+            android:text="@string/cardiovascular"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.143" />
+
+        <TextView
+            android:id="@+id/Covid_header"
+            android:layout_width="380dp"
+            android:layout_height="42dp"
+            android:fontFamily="monospace"
+            android:text="@string/MedicalCondition"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.041" />
+
+        <CheckBox
+            android:id="@+id/cardio_none"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/NONE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.215" />
+
+        <CheckBox
+            android:id="@+id/high_blood_pressure"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/high_blood_pressure"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.312" />
+
+        <CheckBox
+            android:id="@+id/valvular_heart_disease"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/valvular_heart_disease"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.686" />
+
+        <CheckBox
+            android:id="@+id/previous_heart_attack"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/previous_heart_attack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.593" />
+
+        <CheckBox
+            android:id="@+id/previous_stroke"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/previous_stroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/angina"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/angina"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.406" />
+
+        <CheckBox
+            android:id="@+id/other_heart_diseases"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/other_heart_disease"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.778" />
+
+        <Button
+            android:id="@+id/button_fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.915" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+IFAT
+### Header must not be changed. Following definitions used for parameters.
+## Target_Departing_Bool = {false = 0, true = 1}
+## Target_Approaching_Bool = {false = 0, true = 1}
+## Motion_Detected_Bool = {no_motion = 0, motion = 1}
+# File_Format_Version = 1.0
+# Device_Name = Sense2GoL Pulse BGT24LTR11 shield V3.0
+# FW_Version = v3.0.0
+# Pulse_Width_us = 5.0
+# Sampling_Freq_Hz = 2000.0
+# Samples_per_Frame = 128
+# Samples_Skip_Count = 40.0
+# Frame_Rate_Hz = 6.667
+# Min_Speed_mps = 0.20000001788139343
+# Max_Speed_mps = 3.000000238418579
+# Motion_Sensitivity = 10.0
+# Direction_Sensitivity = 50.0
+# Current_Consumption_mA = 1.437000036239624
+## <Result_Count, Frame_Count, Velocity_mps, FFT_Magnitude_Peak, Doppler_Freq_Hz, Motion_Detected_Bool, Target_Departing_Bool, Target_Approaching_Bool >
+
+< 595, 887, 0.537647, 942.14984, 85.9375, 1, 0, 1 >
+< 596, 888, 0.244385, 595.902, 39.0625, 1, 0, 1 >
+< 597, 890, -0.244385, 187.1442, 39.0625, 1, 1, 0 >
+< 598, 891, -0.244385, 104.220665, 39.0625, 1, 1, 0 >
+< 599, 892, -0.391016, 756.58624, 62.5, 1, 1, 0 >
+< 600, 893, -0.244385, 356.4657, 39.0625, 1, 1, 0 >
+< 601, 895, -0.244385, 252.49908, 39.0625, 1, 1, 0 >
+< 602, 896, 0.244385, 610.40625, 39.0625, 1, 0, 1 >
+< 603, 897, 0.244385, 801.2803, 39.0625, 1, 0, 1 >
+< 604, 899, 0.244385, 64.72388, 39.0625, 1, 0, 1 >
+< 605, 900, -0.293262, 158.28783, 46.875, 1, 1, 0 >
+< 606, 901, -0.244385, 346.2641, 39.0625, 1, 1, 0 >
+< 607, 902, 0.244385, 196.24393, 39.0625, 1, 0, 1 >
+< 608, 903, 0.0, 27.073294, 0.0, 1, 0, 0 >
+< 609, 904, 0.0, 47.90503, 0.0, 1, 0, 0 >
+< 610, 905, -0.244385, 159.23352, 39.0625, 1, 1, 0 >

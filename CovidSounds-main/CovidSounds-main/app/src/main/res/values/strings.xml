@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">CovidSounds</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="fourth_fragment_label">Fourth Fragment</string>
+    <string name="fifth_fragment_label">Fifth Fragment</string>
+    <string name="sixth_fragment_label">Sixth Fragment</string>
+    <string name="seventh_fragment_label">Seventh Fragment</string>
+    <string name="eighth_fragment_label">Eighth Fragment</string>
+    <string name="ninth_fragment_label">Ninth Fragment</string>
+    <string name="tenth_fragment_label">Tenth Fragment</string>
+    <string name="eleventh_fragment_label">Eleventh Fragment</string>
+    <string name="twelfth_fragment_label">Twelfth Fragment</string>
+    <string name="next">Next</string>
+    <string name="confirm_over_16">I am over 16</string>
+    <string name="prefer_not_to_say">Prefer Not to Say</string>
+
+    <!-- First Fragments String -->
+    <string name="first_fragment">COVID-19 Sounds</string>
+    <string name="second_fragment">This app aims to collect data (primarily coughs, breathing and voice) as part of a project
+    which could inform the diagnosis of COVID-19.</string>
+    <string name="third_fragment">This app will collect basic demographics, medical history, some voice samples(while you read text on the screen
+        ) and a few second of breathing and coughing.</string>
+
+    <!-- Second Fragments String -->
+    <string name="participate">To participate in this study you must be over 16 years of age.</string>
+    <string name="participate_confirm">Please confirm you are over 16.</string>
+
+    <!-- Third Fragments String -->
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="other">Other</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="smoking">Smoking Habits</string>
+    <string-array name="enteredSmokingHabit">
+        <item>Prefer not to say</item>
+        <item>Never Smoked</item>
+        <item>Once a Day</item>
+        <item>1-10 Cigarettes per day</item>
+        <item>11-20 Cigarettes per day</item>
+        <item>21+ Cigarettes per day</item>
+        <item>Ex-Smoker</item>
+        <item>E-Cigarettes only</item>
+    </string-array>
+    <string-array name="enteredAge">
+        <item>Prefer not to say</item>
+        <item>16-19</item>
+        <item>20-29</item>
+        <item>30-39</item>
+        <item>40-49</item>
+        <item>50-59</item>
+        <item>60-69</item>
+        <item>70-79</item>
+        <item>80-89</item>
+        <item>90-99</item>
+    </string-array>
+
+    <!--Fourth Fragment-->
+    <string name="MedicalCondition">Medical Conditions</string>
+    <string name="NONE">None</string>
+    <string name="ASTHMA">Asthma</string>
+    <string name="CRYSTIC_FIBROSIS">Crystic Fibrosis</string>
+    <string name="COPD_EMPHYSEMA">COPD/Emphysema</string>
+    <string name="PULMONARY_FIBROSIS">Pulmonary Fibrosis</string>
+    <string name="OTHER_LUNG_DISEASES">Other lung diseases</string>
+
+    <!--Fifth Fragment-->
+    <string name="high_blood_pressure">High Blood Pressure</string>
+    <string name="angina">Angina</string>
+    <string name="previous_stroke">Previous Stroke</string>
+    <string name="previous_heart_attack">Previous heart attack</string>
+    <string name="valvular_heart_disease">Valvular heart disease</string>
+    <string name="other_heart_disease">Other heart diseases</string>
+
+    <!--Sixth Fragment-->
+    <string name="diabetes">Diabetes</string>
+    <string name="cancer">Cancer</string>
+    <string name="previous_organ_transplant">Previous organ transplant</string>
+    <string name="hiv">HIV</string>
+    <string name="other_conditions">Other Long Term Conditions</string>
+    <string name="respiratory">Respiratory</string>
+    <string name="other_diseases">Other Diseases</string>
+    <string name="cardiovascular">Cardiovascular</string>
+    <string name="in_hospital">In Hospital</string>
+    <string-array name="inHospital">
+        <item>Prefer not to say</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <!--Seventh Fragment-->
+    <string name="covid_ques">COVID-19 questions</string>
+    <string name="testing_ques">Current COVID-19 testing status?</string>
+    <string-array name="covid_testing_ques">
+        <item>Positive</item>
+        <item>Negative</item>
+        <item>Never Tested</item>
+    </string-array>
+    <string name="infestion_ques">Did you ever had COVID-19 infection?</string>
+    <string-array name="infes_testing_ques">
+        <item>Never</item>
+        <item>Yes, now</item>
+        <item>Yes, in last 14 days</item>
+        <item>Yes, 14 days ago</item>
+    </string-array>
+
+
+    <!--Eighth Fragment-->
+    <string name="symptoms_ques">Do you have any of the following symptoms today?</string>
+    <string name="fever">Fever</string>
+    <string name="chills">Chills</string>
+    <string name="dry_cough">Dry Cough</string>
+    <string name="wet_cough">Wet Cough</string>
+    <string name="difficulty_breathing">Difficulty breathing</string>
+    <string name="tightness_in_chest">Tightness in chest</string>
+    <string name="headache">Headache</string>
+    <string name="muscle_aches">Muscle aches</string>
+
+    <!--Ninth Fragment-->
+    <string name="breath_ques_header">Record breathing</string>
+    <string name="coug_ques_header">Record Coughing</string>
+    <string name="read_ques_header">Record Reading Sentence</string>
+    <string name="breath_ques">Press the start button and take multiple deep breaths. Once done press stop button.</string>
+    <string name="cough_ques">Press the start button and cough multiple times. Once done press stop button.</string>
+    <string name="sent_ques">Press the start button and read the sentence given below. Once done press stop button.</string>
+    <string name="confirm">You have successfully submitted data for the study. Thank you for your participation.</string>
+    <string name="sentence">I am participating in COVID-19 Survey.</string>
+
+</resources>

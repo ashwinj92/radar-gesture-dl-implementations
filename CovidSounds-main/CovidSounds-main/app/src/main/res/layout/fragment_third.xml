@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <TextView
+        android:id="@+id/Gender"
+        android:layout_width="171dp"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:text="@string/gender"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_width="298dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="112dp"
+            android:layout_height="46dp"
+            android:text="@string/radio_male"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.132" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="151dp"
+            android:layout_height="46dp"
+            android:text="@string/radio_female"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.138"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.226" />
+
+        <RadioButton
+            android:id="@+id/prefer_not_two_say"
+            android:layout_width="176dp"
+            android:layout_height="43dp"
+            android:text="@string/prefer_not_to_say"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.153"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.424" />
+
+        <RadioButton
+            android:id="@+id/other"
+            android:layout_width="151dp"
+            android:layout_height="46dp"
+            android:text="@string/other"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.138"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.329" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="81dp"
+        android:layout_height="47dp"
+        android:fontFamily="monospace"
+        android:text="@string/age"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="352dp"
+        android:layout_height="39dp"
+        android:fontFamily="monospace"
+        android:text="@string/smoking"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <Spinner
+        android:id="@+id/enteredAge"
+        android:layout_width="202dp"
+        android:layout_height="52dp"
+        android:entries="@array/enteredAge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <Spinner
+        android:id="@+id/enteredSmokingHabit"
+        android:layout_width="219dp"
+        android:layout_height="38dp"
+        android:entries="@array/enteredSmokingHabit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <Button
+        android:id="@+id/button_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
